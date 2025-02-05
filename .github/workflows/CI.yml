@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: [linux, docker]
+    runs-on: [self-hosted]
     container: 
       image: mcr.microsoft.com/devcontainers/dotnet:1-8.0
 
